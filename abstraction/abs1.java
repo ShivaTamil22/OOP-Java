@@ -5,7 +5,6 @@ abstract class Animal {
     }
 }
 class dog extends  Animal{
-    @Override 
     void sound(){
         System.out.println("Dog barks");
     }
